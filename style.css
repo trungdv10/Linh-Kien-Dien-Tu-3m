@@ -11,6 +11,24 @@ body {
 .clear-fix {
     clear: both;
 }
+.col-6 {
+    flex: 6;
+}
+.col-3 {
+    flex: 3;
+}
+.col-4 {
+    flex: 4;
+}
+.col-5 {
+    flex: 5;
+}
+.col-9 {
+    flex: 9;
+}
+.col-12 {
+    flex: 12;
+}
 .header {
     width: 100%;
     background: #fc7511;
@@ -31,29 +49,10 @@ body {
     display: flex;
     flex-direction: row;
 }
-.col-6 {
-    flex: 6;
-}
-.col-3 {
-    flex: 3;
-}
-.col-4 {
-    flex: 4;
-}
-.col-5 {
-    flex: 5;
-}
-.col-9 {
-    flex: 9;
-}
-.col-12 {
-    flex: 12;
-}
 .topbar1 .row .left,
 .topbar1 .row .right {
     line-height: 23px;
 }
-
 .topbar1 .row .left ul,
 .topbar1 .row .right ul{
     list-style-type: none;
@@ -857,4 +856,102 @@ a {
 .news .container .row .list-blogs-link .blog-item .content p {
     font-size: 1em;
     margin: 0 0 15px 0;
+}
+/* section-brand */
+.section-brand {
+    width: 100%;
+    height: 100px;
+}
+.section-brand .container {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+.section-brand .container .row {
+    width: 100%;
+    height: 100%;
+}
+.section-brand .container .row .owl-stage .owl-item {
+    width: 180px;
+    height: 100%;
+    float: left;
+    margin-right: 6px;
+}
+.section-brand .container .row .owl-stage .owl-item a img {
+    display: block;
+    max-height: 100px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 320px;
+    padding-top: 25px !important;
+}
+.footer .container {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.footer .container .row .footer-widget .list-menu {
+    margin-bottom: 15px;
+    line-height: 1.71429em;
+}
+.footer .container .row .footer-widget .list-menu li {
+    color: #000;
+    list-style-type: none;
+}
+.footer p {
+    margin: 5px;
+}
+.footer p span {
+    color: black !important;
+    font-weight: 600;
+}
+.footer p a {
+    color: #000;
+    text-decoration: none;
+}
+.footer p a:hover {
+    color: #fc7511;
+}
+.footer h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000 !important;
+    padding: 13px 0;
+}
+.footer .contact2 .footer-widget,
+.footer .contact3 .footer-widget,
+.footer .contact4 .footer-widget {
+    margin-left: 10px;
+}
+
+/* copyright */
+.copyright {
+    width: 100%;
+    height: 42px;
+    background-color: #0f0f0f;
+    color: #888;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.copyright .container {
+    width: 85%;
+    height: 100%;
+}
+.copyright .container .row {
+    width: 100%;
+    height: 100%;
+}
+.copyright .container .row .text-center {
+    text-align: center;
+    padding-top: 14px;
 }

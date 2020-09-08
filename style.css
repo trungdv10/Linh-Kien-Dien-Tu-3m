@@ -29,21 +29,21 @@ body {
 .col-12 {
     flex: 12;
 }
-.header {
+.header1 {
     width: 100%;
     background: #fc7511;
 }
-.header .topbar1 {
+.header1 .topbar1 {
     width: 100%;
     padding: 5px 0;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
-.header .topbar1 .container {
+.header1 .topbar1 .container {
     width: 85%;
     height: 23px;
     margin: 0 auto;
 }
-.header .topbar1 .container .row {
+.header1 .topbar1 .container .row {
     width: 100%;
     height: 100%;
     display: flex;
@@ -68,9 +68,7 @@ body {
 .topbar1 .row .right {
     text-align: right;
 }
-a {
-    text-decoration: none;
-}
+
 .topbar1 .row .right li {
     margin-left: 7px;
     padding-left: 11px;
@@ -82,6 +80,7 @@ a {
 .topbar1 .row .right a {
     color: #fff;
     font-size: 12px;
+    text-decoration: none;
 }
 .topbar1 .row .right .fas {
     margin-right: 2px;
@@ -140,34 +139,34 @@ a {
 }
 
 /* container*/
-.header .container {
+.header1 .container {
     width: 100%;
 }
-.header .container .header-main {
+.header1 .container .header-main {
     width: 85%;
     height: 100%;
     margin: 0 auto;
     padding: 5px 0;
 }
-.header .container .header-main .row {
+.header1 .container .header-main .row {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
 }
-.header .container .header-main .row .logo img {
+.header1 .container .header-main .row .logo img {
     border: 0 none;
     max-width: 100%;
     height: auto;
 }
-.header .container .search {
+.header1 .container .search {
     padding-left: 30px;
 }
-.header .container .search .search-form {
+.header1 .container .search .search-form {
     padding: 12px 0;
     position: relative;
 }
-.header .container .search .search-form input {
+.header1 .container .search .search-form input {
     width: 100%;
     height: 40px;
     border: 1px solid #fff;
@@ -176,14 +175,14 @@ a {
     padding-left: 25px;
     outline: none;
 }
-.header .container .search .search-form span {
+.header1 .container .search .search-form span {
     position: absolute;
     right: 1px;
     top: 12px;
     width: 45px;
     height: 40px;
 }
-.header .container .search .search-form span button {
+.header1 .container .search .search-form span button {
     width: 100%;
     height: 100%;
     border: 1px solid #fff;
@@ -193,13 +192,13 @@ a {
     border-radius: 5px !important;
     cursor: pointer;
 }
-.header .container .contact .header-right {
+.header1 .container .contact .header-right {
     width: 100%;
     height: 100%;
     padding-top: 10px;
     padding-left: 35px;
 }
-.header .container .contact .header-right .hotline {
+.header1 .container .contact .header-right .hotline {
     width: 155px;
     float: left;
     text-align: center;
@@ -211,36 +210,39 @@ a {
     position: relative;
     border: 1px solid transparent;
 }
-.header .container .contact .header-right .hotline .icon_hotline {
+.header1 .container .contact .header-right .hotline .icon_hotline {
     color: #fff;
     font-size: 18px;
     float: left;
     width: 30px;
     line-height: 38px;
 }
-.header .container .contact .header-right .hotline .content_hotline,
-.header .container .contact .header-right .cart .content_cart {
+.header1 .container .contact .header-right .hotline .content_hotline,
+.header1 .container .contact .header-right .cart .content_cart {
     line-height: 1.3;
     text-align: left;
 }
-.header .container .contact .header-right .hotline .content_hotline a,
-.header .container .contact .header-right .cart .content_cart a {
+.header1 .container .contact .header-right .hotline .content_hotline a,
+.header1 .container .contact .header-right .cart .content_cart a {
     display: block;
     color: #fff;
     font-size: 15px;
     font-weight: 600;
 }
-.header .container .contact .header-right .hotline .content_hotline span,
-.header .container .contact .header-right .cart .content_cart span {
+.header1 .container .contact .header-right a:hover {
+    text-decoration: none;
+}
+.header1 .container .contact .header-right .hotline .content_hotline span,
+.header1 .container .contact .header-right .cart .content_cart span {
     display: block;
     font-size: 12px;
     color: #fff;
 }
-.header .container .contact .header-right .hotline:hover,
-.header .container .contact .header-right .cart:hover {
+.header1 .container .contact .header-right .hotline:hover,
+.header1 .container .contact .header-right .cart:hover {
     border-color: #fff;
 }
-.header .container .contact .header-right .cart {
+.header1 .container .contact .header-right .cart {
     width: 155px;
     float: left;
     text-align: center;
@@ -251,7 +253,7 @@ a {
     border: 1px solid transparent;
     cursor: pointer;
 }
-.header .container .contact .header-right .cart .icon_shopping {
+.header1 .container .contact .header-right .cart .icon_shopping {
     color: #fff;
     font-size: 18px;
     float: left;
@@ -260,30 +262,30 @@ a {
 }
 
 /* navigator*/
-.header .navigator {
+.header1 .navigator {
     width: 100%;
     height: 53px;
     background: #0ea5e5;
 } 
-.header .navigator .container {
+.header1 .navigator .container {
     width: 85%;
     height: 100%;
     margin: 0 auto;
 }
-.header .navigator .container .row {
+.header1 .navigator .container .row {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
 }
-.header .navigator .container .row .mainmenu {
+.header1 .navigator .container .row .mainmenu {
     background: #d75d03;
     height: auto;
     color: #fff;
     cursor: pointer;
     padding: 0 10px;
 }
-.header .navigator .container .row .mainmenu span {
+.header1 .navigator .container .row .mainmenu span {
     background: transparent;
     display: block;
     position: relative;
@@ -293,16 +295,16 @@ a {
     text-transform: uppercase;
     font-size: 15px;
 }
-.header .navigator .container .row .mainmenu:hover .nav-cate {
+.header1 .navigator .container .row .mainmenu:hover .nav-cate {
     display: block;
 }
-.header .navigator .container .row .mainmenu span i {
+.header1 .navigator .container .row .mainmenu span i {
     font-size: 20px;
     position: relative;
     top: 2px;
     margin-right: 5px;
 }
-.header .navigator .mainmenu .nav-cate {
+.header1 .navigator .mainmenu .nav-cate {
     width: 301px;
     position: absolute;
     top: 166px;
@@ -311,14 +313,14 @@ a {
     z-index: 10;
     display: none;
 }
-.header .navigator .mainmenu .nav-cate ul {
+.header1 .navigator .mainmenu .nav-cate ul {
     width: 100%;
     background: #fff;
     overflow: visible;
     border: 1px solid #fc7511;
     border-top: none;   
 }
-.header .navigator .mainmenu .nav-cate ul li {
+.header1 .navigator .mainmenu .nav-cate ul li {
     position: static;
     display: block;
     overflow: visible;
@@ -326,10 +328,10 @@ a {
     cursor: pointer;
     clear: both;
 }
-.header .navigator .mainmenu .nav-cate ul li:hover {
+.header1 .navigator .mainmenu .nav-cate ul li:hover {
     background: #fc7511;
 }
-.header .navigator .mainmenu .nav-cate ul li h3 {
+.header1 .navigator .mainmenu .nav-cate ul li h3 {
     position: relative;
     display: block;
     color: #666;
@@ -338,17 +340,20 @@ a {
     font-size: 14px;
     font-weight: 400;
 }
-.header .navigator .mainmenu .nav-cate ul li h3 a {
+.header1 .navigator .mainmenu .nav-cate ul li h3 a {
     display: block;
     font-size: 14px;
     color: #666;
 }
-.header .navigator .mainmenu .nav-cate ul li h3 img {
+.header1 .navigator .mainmenu .nav-cate ul li h3 a:hover {
+    text-decoration: none;
+}
+.header1 .navigator .mainmenu .nav-cate ul li h3 img {
     float: left;
     margin-right: 5px;
     height: 22px;
 }
-.header .navigator .right .nav {
+.header1 .navigator .right .nav {
     width: 100%;
     height: 100%;
     position: relative;
@@ -356,19 +361,19 @@ a {
     margin-bottom: 0;
     list-style: none;
 }
-.header .navigator .right .nav .nav-item {
+.header1 .navigator .right .nav .nav-item {
     height: 100%;
     display: block;
     float: left;
 }
-.header .navigator .right .nav-item > a {
+.header1 .navigator .right .nav-item > a {
     color: #fff;
     text-transform: uppercase;
     padding: 18px 10px;
     display: block;
     letter-spacing: 0.03em;
 }
-.header .navigator .right .nav-item .dropdown-menu {
+.header1 .navigator .right .nav-item .dropdown-menu {
     display: none;
     padding: 0;
     border: none;
@@ -383,13 +388,13 @@ a {
     text-align: left;
     list-style: none;
 }
-.header .navigator .right .nav-item .dropdown-menu li {
+.header1 .navigator .right .nav-item .dropdown-menu li {
     padding: 0;
     border-bottom: 1px solid #f7f7f7;
 }
-.header .navigator .right .nav-item .dropdown-menu li a {
+.header1 .navigator .right .nav-item .dropdown-menu li a {
     width: 200px;
-    height: 20px;
+    height: 41px;
     padding: 10px 5px;
     position: relative;
     padding-right: 20px;
@@ -399,10 +404,10 @@ a {
     color: #333;
     white-space: nowrap;
 }
-.header .navigator .right .nav-item .dropdown-menu li a:hover {
+.header1 .navigator .right .nav-item .dropdown-menu li a:hover {
     color: #fc7511;
 }
-.header .navigator .right .nav .list:hover .dropdown-menu {
+.header1 .navigator .right .nav .list:hover .dropdown-menu {
     display: block;
 }
 
@@ -459,6 +464,8 @@ a {
 .slides .button span {
     line-height: 40px;
     display: block;
+    margin-top: -5px;
+    margin-left: 1px;
 }
 
 /*product*/
@@ -502,39 +509,24 @@ a {
     position: absolute;
 }
 .product .container .row .hometitle h2 a {
-    color: #222;
+    color: #000;
+    text-decoration: none;
+}
+.product .container .row .hometitle h2 a:hover {
+    color: #fc7511;
 }
 .product .container .row .content {
     width: 100%;
 }
-.product .container .row .content .tabs-title {
-    text-align: center;
-    z-index: 1;
-    width: 100%;
-    padding: 5px 0 0;
-    border-bottom: none;
-    margin: 0 auto 30px;
-    position: relative;
+.product .container .row .content .nav-pills {
+    padding-left: 335px;
 }
-.product .container .row .content .tabs-title .tab-link {
-    background: #eee;
-    line-height: 1;
-    color: #222;
-    border-radius: 20px;
-    font-size: 13px;
-    padding: 9px 25px;
-    display: inline-block;
-    margin-right: 6px;
-    font-weight: 500;
-    cursor: pointer;
-}
-.product .container .row .content .tabs-title .tab-link:hover {
-    background-color: #fc7511;
-}
-.product .container .row .content .tabs-title .current {
+.product .container .row .content .nav-pills li.active > a,
+.product .container .row .content .nav-pills li a:hover {
+    background: #fc7511;
     color: #fff;
-    background-color: #fc7511;
 }
+
 /* tab-1 */
 .tab-content1.current {
     opacity: 1;
@@ -587,6 +579,9 @@ a {
     height: 38px;
     overflow: hidden;
     display: block;
+}
+.tab-content1.current .owl-stage .owl-item .right-block h4 a:hover {
+    text-decoration: none;
 }
 .tab-content1.current .owl-stage .owl-item .right-block .price {
     overflow: hidden;
@@ -649,6 +644,7 @@ a {
     color: #fff;
     text-transform: uppercase;
     padding-top: 10px;
+    padding-left: 7px;
     float: left;
 }
 .section-4 .container .row .top ul {
@@ -730,6 +726,9 @@ a {
     height: 38px;
     overflow: hidden;
     display: block;
+}
+.section-4 .container .grp-nature .left .group-list-product .right-block h4 a:hover {
+    text-decoration: none;
 }
 .section-4 .container .grp-nature .left .group-list-product .right-block .price {
     overflow: hidden;
@@ -848,6 +847,9 @@ a {
     color: #222;
     max-height: 38px;
 }
+.news .container .row .list-blogs-link .blog-item .content h3 a:hover{
+    text-decoration: none;
+}
 .news .container .row .list-blogs-link .blog-item .content .post-time {
     padding: 3px 0;
     font-size: 13px;
@@ -922,7 +924,7 @@ a {
     color: #fc7511;
 }
 .footer h3 {
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
     color: #000 !important;
@@ -954,4 +956,8 @@ a {
 .copyright .container .row .text-center {
     text-align: center;
     padding-top: 14px;
+}
+
+a {
+    text-decoration: none;
 }
